@@ -26,10 +26,6 @@ def max_common_factor(x, y):
     return spam[-1]
 #-------------------------------------
 
-
-
-
-
 print('input number1')
 num1 = int(input())
 num2 = int(input())

@@ -81,3 +81,4 @@ if __name__ == '__main__':
 
     min_mul = xyz(k_list)
     print( min_mul)
+    
