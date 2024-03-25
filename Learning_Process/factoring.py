@@ -9,6 +9,7 @@ z=19876
 
 print (int (z/100))
 '''
+'''
 z=int(input("please enter number "))
 ddd=True
 
@@ -18,5 +19,12 @@ for k in range(1,int (z/2)+1): #int() => 小數轉整數
      
     
 #print("Is Prime=" + str(ddd)) #str=> 轉字串
+'''
+import math
 
+z = int(input("please enter number "))
+ddd = True
 
+for k in range(1, int(math.sqrt(z)) + 1):
+    if z % k == 0:
+        print(k, z // k)
