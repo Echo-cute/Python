@@ -10,7 +10,7 @@ z=19876
 print (int (z/100))
 '''
 
-z=999
+z=int(input("please enter number"))
 ddd=True
 
 for k in range(1,int (z/2)+1): #int() => 小數轉整數

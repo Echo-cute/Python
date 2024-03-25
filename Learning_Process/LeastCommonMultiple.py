@@ -60,10 +60,24 @@ def xyz(k_list):
     return min_mul
 
 #-------------------------------
+'''
 if __name__ == '__main__':
     import math
 
-    k_list=[25, 45, 90]
+    #k_list=[25, 45, 90]
+    k_list = [int(num) for num in input("Enter numbers separated by spaces:").split()]
     min_mul=xyz(k_list)
     print (min_mul)
+'''
+if __name__ == '__main__':
+    import math
 
+    while True:
+        try:
+            k_list = [int(num) for num in input("Enter numbers separated by spaces").split()]
+            break
+        except ValueError:
+            print("Please enter valid integers separated by spaces.")
+
+    min_mul = xyz(k_list)
+    print( min_mul)
