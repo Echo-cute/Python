@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
     while True:
         try:
-            k_list = [int(num) for num in input("Enter numbers separated by spaces").split()]
+            k_list = [int(num) for num in input("Enter numbers separated by spaces ").split()]
             break
         except ValueError:
             print("Please enter valid integers separated by spaces.")

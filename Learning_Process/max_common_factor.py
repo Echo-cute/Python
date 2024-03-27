@@ -28,6 +28,7 @@ def max_common_factor(x, y):
 
 print('input number1')
 num1 = int(input())
+print('input number2')
 num2 = int(input())
 
 
